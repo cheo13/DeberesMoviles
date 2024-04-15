@@ -12,7 +12,7 @@ export const WillyWonkaEvent: FC = () => {
     };
     const handleChildMessage = (message: string): void => {
     
-        console.log("Message from child:", message);
+       // console.log("Message from child:", message);
        setChildMessage(message);
     };
 
